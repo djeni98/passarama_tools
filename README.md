@@ -19,3 +19,14 @@ this tool is split in two sections:
  database with the new one.
 
 The reviewing part, between initial and final sections, have to be made by hand.
+
+## Reviewer
+> database/reviewer.py
+
+As mentioned before, we need to review links by hand.
+Our problem is to keep track about which link was reviewed and which was not.
+
+This script help us to review links opening them on browser and saving it
+if it will be ignored or not. We can specify a parameter to tell how many
+links will be reviewed. Then the files will be updated with unreviewed links
+(if there is any one left) and ignored links.
