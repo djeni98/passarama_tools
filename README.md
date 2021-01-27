@@ -30,3 +30,9 @@ This script help us to review links opening them on browser and saving it
 if it will be ignored or not. We can specify a parameter to tell how many
 links will be reviewed. Then the files will be updated with unreviewed links
 (if there is any one left) and ignored links.
+
+## MsgGenerator
+> notification/msg_generator.py
+
+From a template, this tool generates a message text explaining how Passarama
+works and the results obtained to a specific fansub.
